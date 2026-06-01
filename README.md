@@ -8,11 +8,12 @@ This project analyzes 1,200 retail transactions recorded between 2023 and 2025, 
 ## How the Work Was Done
 The lifecycle of this analytics pipeline was executed across four distinct architectural stages:
 
-### Stage 1: Data Cleaning & Preparation (Microsoft Excel)
+### Stage 1: Data Cleaning & Preparation (Python)
 Before initiating any analysis, the data was rigorously audited to ensure it was completely trustworthy:
 * **Integrity Checks:** Scanned for duplicate order IDs and standardized date formatting across all entries.
 * **Mathematical Validation:** Confirmed calculation accuracy for every row using the ledger rule: `Quantity × Price = Total`.
 * **Sparsity Audit:** Flagged 309 empty entries in the coupon column, which were validated as operationally normal since not every customer applies a coupon.
+* **The file was converted from .xlsx to CSV — a lighter, more portable format that worked seamlessly with Python and the SQLite database downstream.
 
 ### Stage 2: Exploratory Data Analysis (Python)
 This stage focused on uncovering the core statistical properties and shapes of the transactional data:
