@@ -57,7 +57,7 @@ The final stage translated tabular, structural metrics into intuitive, executive
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME](https://github.com/yvvonelle/Task-1-Yvvone-Mul.git
+git clone https://github.com/yvvonelle/Task-1-Yvvone-Muli.git
 cd Task-1-Yvvone-Muli
 ```
 
