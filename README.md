@@ -52,13 +52,13 @@ The final stage translated tabular, structural metrics into intuitive, executive
 * **Dataset Scope:** 1,200 rows × 14 columns
 * **Monitored Fields:** Order ID, Date, Customer ID, Product, Quantity, Price, Shipping Address, Payment Method, Order Status, Tracking Number, Items in Cart, Coupon Code, Referral Source, and Total Price.
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME](https://github.com/yvvonelle/Task-1-Yvvone-Mul.git
+cd Task-1-Yvvone-Muli
 ```
 
 ### 2. Install Dependencies
@@ -69,7 +69,7 @@ Install all required Python packages using the provided `requirements.txt` file:
 pip install -r requirements.txt
 ```
 
-### 3. Run Data Cleaning & Conversion (Stage 1)
+### 3. Run Data Cleaning & Conversion (Project 1)
 
 Run the automated pipeline to convert the source Excel file into a clean CSV and perform structural data quality checks:
 
@@ -77,7 +77,7 @@ Run the automated pipeline to convert the source Excel file into a clean CSV and
 project.1.py
 ```
 
-### 4. Run Exploratory Analysis & Visualization (Stages 2 & 4)
+### 4. Run Exploratory Analysis & Visualization (Projects 2 & 4)
 
 Execute the analysis and visualization scripts to generate business intelligence insights and charts:
 
